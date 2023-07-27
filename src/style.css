@@ -1,10 +1,37 @@
 @font-face {
-  font-family: "Barlow Semi Condensed";
-  src: url("./assets/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf");
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf");
 }
 
 :root {
   --purple: #755cde;
+  --gold: #f6a560;
+  --pink: #f39e9e;
+  --salmon: #eb7565;
+  --teal: #61c4b7;
+  --maroon: #552049;
+  --black: #030303;
+  --grey: 7a746e;
+  --white: #fff7f0;
+
+  --headerlink-mobile-text-size: 1.5rem;
+
+  --headerlink-mobile-line-height: 1.5rem;
+
+  --regular: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+
+  --jakarta: "Barlow Semi Condensed", sans-serif;
+}
+
+.header-link-text {
+  text-align: left;
+  vertical-align: top;
+  color: var(--white);
+  font-family: var(--jakarta);
+  font-weight: var(--bold);
 }
 
 @media (min-width: 768px) {
