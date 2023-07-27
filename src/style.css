@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Barlow Semi Condensed";
+  src: url("./assets/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf");
+}
+
+:root {
+  --purple: #755cde;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1440px) {
+}
