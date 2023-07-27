@@ -12,7 +12,8 @@
   --maroon: #552049;
   --black: #030303;
   --grey: 7a746e;
-  --white: #fff7f0;
+  --cream: #fff7f0;
+  --white: #ffffff;
 
   --headerlink-mobile-text-size: 1.5rem;
 
@@ -27,11 +28,43 @@
 }
 
 .header-link-text {
+  font-size: var(--headerlink-mobile-text-size);
   text-align: left;
   vertical-align: top;
   color: var(--white);
   font-family: var(--jakarta);
   font-weight: var(--bold);
+}
+
+.background-purple {
+  background-color: var(--purple);
+}
+.background-gold {
+  background-color: var(--gold);
+}
+.background-pink {
+  background-color: var(--pink);
+}
+.background-salmon {
+  background-color: var(--salmon);
+}
+.background-teal {
+  background-color: var(--teal);
+}
+.background-maroon {
+  background-color: var(--maroon);
+}
+.background-black {
+  background-color: var(--black);
+}
+.background-cream {
+  background-color: var(--cream);
+}
+.text-white {
+  color: var(--white);
+}
+.text-cream {
+  color: var(--cream);
 }
 
 @media (min-width: 768px) {
