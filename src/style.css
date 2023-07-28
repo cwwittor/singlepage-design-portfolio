@@ -11,20 +11,28 @@
   --teal: #61c4b7;
   --maroon: #552049;
   --black: #030303;
-  --grey: 7a746e;
+  --grey: #7a746e;
   --cream: #fff7f0;
   --white: #ffffff;
 
   --headerlink-mobile-text-size: 1.5rem;
+  --header-text-size: 2.25rem;
+  --header-paragraph-size: 1rem;
+  --body-text-size: 1.625rem;
 
   --headerlink-mobile-line-height: 1.5rem;
+  --header-paragraph-lineheight: 1.625rem;
 
   --regular: 400;
   --medium: 500;
   --semi-bold: 600;
-  --bold: 700;
+  --bold: 600;
 
   --jakarta: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  margin: 1rem;
 }
 
 .header-link-text {
@@ -34,6 +42,54 @@
   color: var(--white);
   font-family: var(--jakarta);
   font-weight: var(--bold);
+}
+
+.header-text {
+  font-size: var(--header-text-size);
+  font-family: var(--jakarta);
+  font-weight: (--bold);
+  color: var(--black);
+}
+
+.header-paragraph {
+  font-size: var(--header-paragraph-size);
+  line-height: var(--header-paragraph-lineheight);
+  font-family: var(--jakarta);
+  font-weight: var(--medium);
+}
+
+.body-header-text {
+  font-size: var(--body-text-size);
+  font-family: var(--jakarta);
+  font-weight: (--bold);
+}
+
+.slides-header-text {
+  font-size: var(--headerlink-mobile-text-size);
+  font-family: var(--jakarta);
+  font-weight: var(--bold);
+}
+
+/* .body-paragraph-text {
+  font-size: var(--body-text-size);
+  font-family: var(--jakarta);
+  font-weight: (--bold);
+  color: var(--black);
+} */
+
+.cream-text {
+  color: var(--cream);
+}
+.grey-text {
+  color: var(--grey);
+}
+.black-text {
+  color: var(--black);
+}
+
+.center-align {
+  text-align: center;
+  vertical-align: top;
 }
 
 .background-purple {
