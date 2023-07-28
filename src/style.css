@@ -19,6 +19,7 @@
   --header-text-size: 2.25rem;
   --header-paragraph-size: 1rem;
   --body-text-size: 1.625rem;
+  --button-font-size: 0.875rem;
 
   --headerlink-mobile-line-height: 1.5rem;
   --header-paragraph-lineheight: 1.625rem;
@@ -121,6 +122,30 @@ body {
 }
 .text-cream {
   color: var(--cream);
+}
+
+.black-button {
+  font-size: var(--button-font-size);
+  font-family: var(--jakarta);
+  font-weight: var(--medium);
+  background-color: var(--black);
+  color: var(--cream);
+  padding: 0.8rem 1.4rem 0.8rem 1.4rem;
+  border-radius: 2rem;
+}
+
+.salmon-button {
+  font-size: var(--button-font-size);
+  font-family: var(--jakarta);
+  font-weight: var(--medium);
+  background-color: var(--salmon);
+  color: var(--cream);
+  padding: 0.8rem 1.4rem 0.8rem 1.4rem;
+  border-radius: 2rem;
+}
+
+.img-amy {
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
