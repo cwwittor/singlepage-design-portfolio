@@ -93,23 +93,80 @@ body {
   vertical-align: top;
 }
 
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px; /* Adjust the gap value as needed */
+}
+
+.svg-header-text {
+  margin-top: auto;
+}
+
+.svg-header {
+  margin-left: auto;
+}
+
 .background-purple {
+  padding: 1.5rem;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
   background-color: var(--purple);
+  grid-column: span 2;
+  grid-row: span 2;
 }
 .background-gold {
+  padding: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
   background-color: var(--gold);
+  grid-column: span 1;
+  grid-row: span 1;
 }
 .background-pink {
+  padding: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
   background-color: var(--pink);
+  grid-column: span 1;
+  grid-row: span 1;
 }
 .background-salmon {
+  padding: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
   background-color: var(--salmon);
+  grid-column: span 2;
+  grid-row: span 1;
 }
 .background-teal {
+  padding: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
   background-color: var(--teal);
+  grid-column: span 2;
+  grid-row: span 1;
 }
 .background-maroon {
+  padding: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
   background-color: var(--maroon);
+  grid-column: span 2;
+  grid-row: span 1;
 }
 .background-black {
   background-color: var(--black);
@@ -146,6 +203,43 @@ body {
 
 .img-amy {
   max-width: 100%;
+}
+
+.flex-consultation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo-circle {
+  cx: 1.5rem;
+  cy: 1.5rem;
+  stroke-width: 0.188rem;
+  r: 12;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.header-largetext {
+  /* max-width: 20rem; */
+  margin-bottom: 0;
+}
+
+.header-subtext {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  /* max-width: 16rem; */
 }
 
 @media (min-width: 768px) {
