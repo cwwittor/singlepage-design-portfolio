@@ -97,7 +97,8 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  gap: 10px; /* Adjust the gap value as needed */
+  gap: 1.2rem; /* Adjust the gap value as needed */
+  margin-bottom: 5rem;
 }
 
 .svg-header-text {
@@ -120,7 +121,7 @@ body {
 }
 .background-gold {
   padding: 1.5rem;
-  gap: 3rem;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -130,7 +131,7 @@ body {
 }
 .background-pink {
   padding: 1.5rem;
-  gap: 3rem;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -140,7 +141,7 @@ body {
 }
 .background-salmon {
   padding: 1.5rem;
-  gap: 3rem;
+  gap: 1rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -150,7 +151,7 @@ body {
 }
 .background-teal {
   padding: 1.5rem;
-  gap: 3rem;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -160,7 +161,7 @@ body {
 }
 .background-maroon {
   padding: 1.5rem;
-  gap: 3rem;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -199,10 +200,32 @@ body {
   color: var(--cream);
   padding: 0.8rem 1.4rem 0.8rem 1.4rem;
   border-radius: 2rem;
+  /* align-self: center; */
+}
+
+.flex-img {
+  display: flex;
+  justify-content: center;
+}
+
+.img-caption-header {
+  margin-bottom: 0;
+}
+
+.img-caption-paragraph {
+  margin: 1.1rem 0.5rem 1.5rem 0.5rem;
+}
+
+.flex-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 .img-amy {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .flex-consultation {
