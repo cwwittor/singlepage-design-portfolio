@@ -170,6 +170,7 @@ body {
   grid-row: span 1;
 }
 .background-black {
+  border-radius: 0.5rem;
   background-color: var(--black);
 }
 .background-cream {
@@ -226,6 +227,19 @@ body {
 
 .img-amy {
   max-width: 90%;
+}
+
+.flex-bottom-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.8rem 2.5rem 1.8rem;
+  margin: 0 0 2rem 0;
+}
+
+.bottom-paragraph {
+  margin-top: 0;
 }
 
 .flex-consultation {
