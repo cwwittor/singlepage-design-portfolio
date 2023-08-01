@@ -260,6 +260,15 @@ body {
   r: 12;
 }
 
+.img-slide {
+  max-width: 90%;
+}
+
+.img-album {
+  display: flex;
+  overflow: hidden;
+}
+
 .header {
   display: flex;
   flex-direction: column;
