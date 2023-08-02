@@ -15,6 +15,10 @@
   --cream: #fff7f0;
   --white: #ffffff;
 
+  --view: 2;
+
+  --view-array: "";
+
   --headerlink-mobile-text-size: 1.5rem;
   --header-text-size: 2.25rem;
   --header-paragraph-size: 1rem;
@@ -261,12 +265,15 @@ body {
 }
 
 .img-slide {
-  max-width: 90%;
+  max-width: 70%;
+  border-radius: 1rem;
 }
 
 .img-album {
   display: flex;
-  overflow: hidden;
+  position: relative;
+  left: -143%;
+  gap: 2rem;
 }
 
 .header {
@@ -286,6 +293,18 @@ body {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   /* max-width: 16rem; */
+}
+
+.arrow-button {
+  background-color: var(--black);
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 @media (min-width: 768px) {
