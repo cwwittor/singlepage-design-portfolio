@@ -366,6 +366,7 @@ body {
   }
 
   .img-caption-paragraph {
+    margin-left: 0;
     text-align: left;
   }
 
@@ -385,6 +386,8 @@ body {
   }
 
   .flex-caption {
+    width: 110%;
+    margin-left: 1rem;
   }
 
   .salmon-button {
