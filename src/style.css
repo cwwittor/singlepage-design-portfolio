@@ -18,6 +18,7 @@
   --view: 2;
   --left: -32rem;
   --leftTablet: -62.8rem;
+  --leftDesktop: -44.5rem;
 
   --view-array: "";
 
@@ -220,6 +221,14 @@ body {
   /* align-self: center; */
 }
 
+.salmon-button:hover {
+  background-color: var(--gold);
+}
+
+.black-button:hover {
+  background-color: var(--purple);
+}
+
 .flex-img {
   display: flex;
   justify-content: center;
@@ -324,6 +333,10 @@ body {
   border-radius: 50%;
 }
 
+.arrow-button:hover {
+  background-color: var(--purple);
+}
+
 .arrow-buttons {
   display: flex;
   justify-content: center;
@@ -406,9 +419,77 @@ body {
   .img-amy {
     max-width: 100%;
   }
+
+  .middle-button {
+    align-self: center;
+  }
+
+  .bottom-paragraph {
+    max-width: 29rem;
+  }
 }
 
 @media (min-width: 1440px) {
+  .grid-box {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem; /* Adjust the gap value as needed */
+    margin: 4rem 0 7rem 0;
+  }
+
+  .header-subtext {
+    max-width: 34rem;
+  }
+
+  .header-largetext {
+    font-size: 3.5rem;
+  }
+
+  .img-caption-header {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .margin-top {
+    margin: 2rem 10rem 0 10rem;
+  }
+
+  .margin-bottom {
+    margin: 5rem 10rem 4rem 10rem;
+  }
+
+  .black-button {
+    padding: 0.8rem 2.6rem 0.8rem 2.6rem;
+  }
+
+  .salmon-button {
+    padding: 0.8rem 2.4rem 0.8rem 2.4rem;
+  }
+
+  .flex-bottom-box {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem 0 4rem 0;
+    padding: 1rem 1.8rem 2rem 1.8rem;
+  }
+
+  .img-album {
+    left: var(--leftDesktop);
+  }
+
+  .bottom-header {
+    text-align: left;
+    font-size: 2.5rem;
+  }
+
+  .bottom-paragraph {
+    text-align: left;
+    font-size: 1.125rem;
+  }
+
+  /* .header {
+    margin-bottom: 2rem;
+  } */
 }
 
 /* FLEX CAPTION */
